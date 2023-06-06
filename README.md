@@ -1,9 +1,9 @@
 Flight information -analysis
 DATE:
 
-GITHUB LINK: https://github.com/saran7d/DS-EX-10.git
+GITHUB LINK: https://github.com/simbu07/Ex10
 
-COLAB LINK: https://colab.research.google.com/drive/1NVXuiyaSNIa2AyA1-P9UxAfYcm096ZPl?usp=sharing
+COLAB LINK: https://colab.research.google.com/drive/1i7LNfEBbSL_KW75H7uNyURslgtMio9Wk?usp=sharing
 
 AIM :
 To Perform Bivariate/Multivariate Analysis
