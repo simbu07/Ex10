@@ -23,6 +23,7 @@ Developed by: Silambarasan K
 
 Reg no: 212221230101
 ```
+```
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -40,18 +41,18 @@ print(dd)
 TYPES OF BIVARIATE ANALYSIS:
 (i) Numerical & Numerical
 sns.scatterplot (dd['Date_of_Journey'],dd['Dep_Time'])
-
+```
 ![image](https://user-images.githubusercontent.com/119560261/229037607-1573e69c-5e28-4c9a-8b52-cef0b38a9be7.png)
-
+```
 (ii) Numerical & Categorical
 sns.barplot (x=dd['Duration'],y=dd['Price'])
-
+```
 ![image](https://user-images.githubusercontent.com/119560261/229037776-97b0e5a9-6bb2-4718-a9b7-4de3202fa226.png)
-
+```
 sns.barplot(x=dd["Arrival_Time"],y=dd["Price"],data=dd)
-
+```
 ![image](https://user-images.githubusercontent.com/119560261/229037892-1d807fbb-e11a-4a11-9582-ba386b267331.png)
-
+```
 states=dd.loc[:,["Duration","Price"]]
 
 states=states.groupby(by=["Duration"]).sum().sort_values(by="Price")
@@ -65,9 +66,9 @@ plt.xlabel=("Duration")
 plt.ylabel=("Price")
 
 plt.show()
-
+```
 ![image](https://user-images.githubusercontent.com/119560261/229037987-b681d332-1d02-44d5-854e-6b1cb824f073.png)
-
+```
 Multivariate Analysis :
 dd.corr()
 
@@ -80,7 +81,7 @@ print(data)
 hm = sns.heatmap(data = data)
 
 plt.show()
-
+```
 ![image](https://user-images.githubusercontent.com/119560261/229038165-2ce3fc02-0ba4-4e37-a3b6-14f0c16b9bf8.png)
 
 RESULT:
