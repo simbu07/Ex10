@@ -23,7 +23,6 @@ Developed by: Silambarasan K
 
 Reg no: 212221230101
 ```
-```py
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -81,7 +80,7 @@ print(data)
 hm = sns.heatmap(data = data)
 
 plt.show()
-```
+
 ![image](https://user-images.githubusercontent.com/119560261/229038165-2ce3fc02-0ba4-4e37-a3b6-14f0c16b9bf8.png)
 
 RESULT:
